@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0;
+}
+	#Apic {
+		width:100%;
+		height:50vh;
+		background-color:#F90105;
+		background-image:url(../images/03.jpg);
+		background-size:cover;
+		background-position:top;
+		background-attachment:fixed;
+	}
+	#logo {
+		width:100px;
+		height:100px;
+		background-color:#FFF;
+		top:50px;
+		left:50px;
+		position:fixed;
+		box-shadow:5px 5px black;
+	}
+	#box {
+		width:200px;
+		height:70px;
+		background-color:#CCC;
+		top:50px;
+		right:50px;
+		position:fixed;
+		
+	}
+	#A {
+		width:50px;
+		height:50px;
+		background-color:yellow;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:5px;
+		text-align:center;
+	}
+	#B {
+		width:50px;
+		height:50px;
+		background-color:yellow;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:5px;
+		text-align:center;
+	}
+	#C {
+		width:50px;
+		height:50px;
+		background-color:yellow;
+		float:left;
+		margin-top:10px;
+		margin-left:10px;
+		text-align:center;
+	}
+	a:link {
+		color:#0A00FC;
+		text-decoration:none;
+}
+	a:visited {
+		color:#6A3A93;
+}
+	a:hover {
+		color:#0AF434;
+}
+	#Atext {
+		width:100%;
+		height:30vh;
+		background-color:#05E7FB;
+		padding-top:20vh;
+	}
+	#Bpic {
+		width:100%;
+		height:50vh;
+		background-color:#05FC38;
+		background-image:url(../images/01.jpg);
+		background-size:cover;
+		background-position:center;
+		background-attachment:fixed;
+	}
+	#Btext {
+		width:100%;
+		height:50vh;
+		background-color:#F88B01;
+	}
+	#Cpic {
+		width:100%;
+		height:50vh;
+		background-color:#0723FB;
+		background-image:url(../images/02.jpg);
+		
+		background-size:cover;
+		background-position:bottom;
+		background-attachment:fixed;
+	}
+	#Ctext {
+		width:100%;
+		height:50vh;
+		background-color:#A304F4;
+	}
+	
+	
