@@ -1,0 +1,46 @@
+{
+	"responsive": true,
+	"tmpSocialIconFont": true,
+	"enableEditorJS": true,
+    "description": "Dusk gives your website an extra wash of color and sophisticated design elements. The professional palettes and fixed navigation allow your content and brand to remain beautifully positioned on all pages.",
+    "features": [
+        "responsive",
+        "css-buttons",
+        "social-icons",
+        "full-width-header",
+        "navigation-center",
+        "color-palettes"
+    ],
+    "variations": [
+        {
+            "value": "green",
+            "sample": "#388070",
+            "is-dark": false
+        },
+        {
+            "value": "blue",
+            "sample": "#385880",
+            "is-dark": false
+        },
+        {
+            "value": "grey",
+            "sample": "#202020",
+            "is-dark": false
+        },
+        {
+            "value": "red",
+            "sample": "#991723",
+            "is-dark": false
+        }
+    ],
+    "custom-options" : [
+        {
+            "name" : "header-overlay",
+            "title": "Header Color",
+            "type" : "toggle",
+            "default" : true,
+            "is-body-class" : true,
+            "is-less-var" : false
+        }
+    ]
+}
